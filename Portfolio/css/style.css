@@ -1,0 +1,191 @@
+:root{
+    --font-primary:"Poppins", sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-primary);
+}
+body{
+    background-color: #f2f2f2;
+}
+nav{
+    background-color: #fff;
+    /* trbl */
+    padding: 12px 0;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.right-side{
+    width: 60%;
+}
+.left-side{
+    width: 40%;
+}
+#main-menu{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    gap: 22px;
+    align-items: center;
+    height: 100%;
+
+}
+#main-menu li{
+    list-style: none;
+}
+#main-menu li >a{
+    text-decoration: none;
+    color: initial;
+    font-size: 18px;
+}
+#main-menu > li a:hover{
+    color: #0e930e;
+}
+.highlight{
+    color: #0e930e;
+}
+.left-side > a{
+    text-decoration: none;
+    color: initial;
+    font-size: 25px;
+}
+.photo-section-wrapper {
+    width: 85%;
+    margin: auto;
+    padding: 80px 0;
+    display: flex;
+}
+.photo-left-side{ 
+    width: 50%;
+}
+.photo-left-side > img{
+    width: 90%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    
+}
+.photo-right-side{
+    width: 50%;
+}
+
+.photo-title{
+    font-size: 40px;
+}
+.photo-right-side>p{
+    margin: 25px 0;
+}
+.icons>a>i{
+    font-size: 30px;
+}
+/* .github{
+    color: black;
+}
+.linkedin{
+    color: #0077b5;
+}
+.facebook{
+    color: #316FF6;
+}
+.instagram{
+   
+} */
+.icons>a{
+    color: black;
+    text-decoration: none;
+}
+.icons>a:hover{
+    color: #0e930e;
+    text-decoration: none;
+}
+.icons>a:nth-child(even){
+    padding: 0 20px;
+}
+.services-wrapper{
+    width: 85%;
+    margin: auto;
+}
+.section-title-area{
+    text-align: center;
+}
+.section-title{
+    font-size: 30px;
+}
+.section-title::after{
+    content: "";
+    width: 60px;
+    height: 5px;
+    display: block;
+    background-color: #0e930e;
+    margin: 5px auto;
+}
+
+.service > *{
+    text-align: center;
+}
+.services-list{
+    display: flex;
+    gap: 50px;
+    padding: 70px 0;
+}
+.service >div >i{
+    font-size: 40px;
+    background-color: #b3eab3;
+    color: white;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.web-design{
+    background-color: #90e190 !important;
+}
+.service-title{
+    margin: 15px 0;
+}
+.contact-form-wrapper{
+    width: 85%;
+    margin: auto;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    margin-top: 12px;
+}
+form{
+    width: 40%; 
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    justify-content: center; 
+} 
+.form-group>label{
+    font-size: 18px;
+}
+.form-group>input{
+    padding: 8px;
+}
+.form-group>textarea{
+    width: 100%;
+    height: 220px;
+    resize: none;
+}
+.footer-title{
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    padding: 30px;
+    background-color: #fff;
+}
+footer>p{
+    font-size: 18px;
+    text-align: center;
+}
